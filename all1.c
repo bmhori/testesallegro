@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***************************************************************************
  *  *   Copyright (C) 2005, 2015 by Dr.Beco                                   *
  *  *   rcb@beco.cc                                                           *
@@ -78,7 +64,7 @@ int main(void)
     }
 
     circle(buff, 160, 120, 100, CORAMARELO);
-    textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo.");
+    textprintf_ex(buff, font, 100, 100, CORVERDE, CORPRETO, "Teste do circulo.");
 
     save_bitmap(IMAGENAME, buff, pal);
     destroy_bitmap(buff);
