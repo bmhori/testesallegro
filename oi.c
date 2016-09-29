@@ -36,7 +36,7 @@
 #define CORAMARELO (makecol(255,255,100))
 #define CORVERMELHO (makecol(255, 0, 0))
 
-#define IMAGENAME "oiteste4.bmp" /* nome do arquivo de imagem */
+#define IMAGENAME "oiteste5.bmp" /* nome do arquivo de imagem */
 
 #include <stdio.h>
 #include <allegro.h>
@@ -60,8 +60,8 @@ int main(void)
         exit(EXIT_FAILURE);
     }
     
-    circle(buff, 160, 120, 100, CORAMARELO);
-    circle(buff,  320, 240, 100, CORAZUL);
+    circlefill(buff, 160, 120, 100, CORAMARELO);
+    circle(buff,  80, 60, 100, CORAZUL);
     textprintf_ex(buff, font, 100, 100, CORVERDE, CORPRETO, "Teste do circulo.");
 
     save_bitmap(IMAGENAME, buff, pal);
