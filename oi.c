@@ -36,7 +36,7 @@
 #define CORAMARELO (makecol(255,255,100))
 #define CORVERMELHO (makecol(255, 0, 0))
 
-#define IMAGENAME "oiteste2.bmp" /* nome do arquivo de imagem */
+#define IMAGENAME "oiteste3.bmp" /* nome do arquivo de imagem */
 
 #include <stdio.h>
 #include <allegro.h>
@@ -53,7 +53,7 @@ int main(void)
     get_palette(pal);
 
     // Create a buffer for smooth animation.
-    buff = create_bitmap(320,240);
+    buff = create_bitmap(1320,1240);
     if(buff == NULL)
     {
         printf("Could not create buffer!\n");
