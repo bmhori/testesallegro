@@ -61,6 +61,7 @@ int main(void)
     }
 
     circle(buff, 160, 120, 100, CORAMARELO);
+    circle(buff,  320, 249, 200, CORAZUL);
     textprintf_ex(buff, font, 100, 100, CORVERDE, CORPRETO, "Teste do circulo.");
 
     save_bitmap(IMAGENAME, buff, pal);
