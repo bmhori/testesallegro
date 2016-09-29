@@ -36,7 +36,7 @@
 #define CORAMARELO (makecol(255,255,100))
 #define CORVERMELHO (makecol(255, 0, 0))
 
-#define IMAGENAME "oiteste3.bmp" /* nome do arquivo de imagem */
+#define IMAGENAME "oiteste4.bmp" /* nome do arquivo de imagem */
 
 #include <stdio.h>
 #include <allegro.h>
@@ -59,9 +59,9 @@ int main(void)
         printf("Could not create buffer!\n");
         exit(EXIT_FAILURE);
     }
-
+    
     circle(buff, 160, 120, 100, CORAMARELO);
-    circle(buff,  320, 249, 200, CORAZUL);
+    circle(buff,  320, 240, 100, CORAZUL);
     textprintf_ex(buff, font, 100, 100, CORVERDE, CORPRETO, "Teste do circulo.");
 
     save_bitmap(IMAGENAME, buff, pal);
