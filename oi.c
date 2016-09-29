@@ -36,7 +36,7 @@
 #define CORAMARELO (makecol(255,255,100))
 #define CORVERMELHO (makecol(255, 0, 0))
 
-#define IMAGENAME "oiteste.bmp" /* nome do arquivo de imagem */
+#define IMAGENAME "oiteste2.bmp" /* nome do arquivo de imagem */
 
 #include <stdio.h>
 #include <allegro.h>
