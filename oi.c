@@ -36,7 +36,7 @@
 #define CORAMARELO (makecol(255,255,100))
 #define CORVERMELHO (makecol(255, 0, 0))
 
-#define IMAGENAME "oiteste7.bmp" /* nome do arquivo de imagem */
+#define IMAGENAME "oiteste8.bmp" /* nome do arquivo de imagem */
 
 #include <stdio.h>
 #include <allegro.h>
@@ -61,7 +61,7 @@ int main(void)
     }
     
     circlefill(buff, 160, 120, 100, CORAMARELO);
-    circle(buff, 160, 240, 100, CORAZUL);
+    circlefill(buff, 320, 120, 100, CORAZUL);
     textprintf_ex(buff, font, 100, 100, CORVERDE, CORPRETO, "MOVENDO ALGUEM!");
 
     save_bitmap(IMAGENAME, buff, pal);
