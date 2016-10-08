@@ -36,7 +36,7 @@
 #define CORAMARELO (makecol(255,255,100))
 #define CORVERMELHO (makecol(255, 0, 0))
 
-#define IMAGENAME "oiteste12.bmp" /* nome do arquivo de imagem */
+#define IMAGENAME "oiteste13.bmp" /* nome do arquivo de imagem */
 
 #include <stdio.h>
 #include <allegro.h>
@@ -60,8 +60,8 @@ int main(void)
         exit(EXIT_FAILURE);
     }
     
-    circlefill(buff, 160, 120, 100, CORAMARELO);
-    circlefill(buff, 360, 120, 100, CORAZUL);
+    circle(buff, 160, 120, 100, CORAMARELO);
+    circle(buff, 360, 120, 100, CORAZUL);
     triangle(buff,100, 100, 100, 100, 100, 100, CORVERMELHO);
     textprintf_ex(buff, font, 200, 100, CORVERDE, CORPRETO, "MOVENDO ALGUEM!");
 
